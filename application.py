@@ -34,13 +34,8 @@ def acknowledge_response():
     min_salary_requirement = request.form.get("salaryrequirement")
     desired_position = request.form.get("jobposition")
 
-    print "this is on the response page"
-    print applicant_firstname
-    print applicant_lastname
-    print min_salary_requirement
-    print desired_position
-
-
+    print ("this is on the response page", applicant_firstname, 
+            applicant_lastname, min_salary_requirement, desired_position)
 
     return render_template("application-response.html", 
                             applicant_firstname=applicant_firstname,

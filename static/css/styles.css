@@ -1,6 +1,7 @@
 /* Your styles can go here. */
 
 body {
+    background-color: rgb(229, 255, 255);
     font-family: sans-serif;
 }
 
@@ -15,3 +16,8 @@ input.yellow {
 div.instructions {
     border-style: solid;
 }
+
+p {
+    font-family: sans-serif;
+}
+
