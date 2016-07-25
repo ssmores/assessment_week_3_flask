@@ -1,0 +1,17 @@
+/* Your styles can go here. */
+
+body {
+    font-family: sans-serif;
+}
+
+input.yellow {
+    background-color: yellow;
+}
+
+#field-lastname {
+    font-weight: bold;
+}
+
+div.instructions {
+    border-style: solid;
+}
